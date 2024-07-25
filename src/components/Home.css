@@ -1,0 +1,34 @@
+#home {
+    height: 80vh;
+    display: flex;
+    flex-flow: row;
+    padding: 10%;
+    background-color: #010112;
+    background-image: url('../assets/background.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+}
+
+#heading_container {
+    color: white;
+    width: 50%;
+    font-size: 4rem;
+}
+#heading_2 {
+    color: red;
+}
+.home_btns {
+    margin: 2%;
+}
+
+#truck_img_container {
+    width: 50%;
+}
+#truck_img {
+    width: 100%;
+}

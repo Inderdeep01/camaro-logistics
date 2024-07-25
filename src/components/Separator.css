@@ -1,0 +1,9 @@
+#separator {
+    background-color: rgb(34, 0, 0);
+    height: 5vh;
+    color: red;
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    transform: rotate(-5deg);
+}
