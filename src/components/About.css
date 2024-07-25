@@ -1,0 +1,37 @@
+#about_container {
+    height: 80vh;
+    display: flex;
+    flex-flow: row;
+    padding: 10%;
+    /* background-color: whitesmoke; */
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 25%);;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    margin-bottom: 3%;
+
+}
+#truck_img_container_2 {
+    margin-top: 6%;
+    width: 50%;
+}
+#truck_img_2{
+    width: 100%;
+}
+
+#about_sub_container {
+    width: 50%;
+    margin-left: 5% ;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    
+}
+
+.heading2{
+    font-weight: 700;
+    
+}
+#heading_3{
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+.sub_heading_3{
+    color: red;
+}

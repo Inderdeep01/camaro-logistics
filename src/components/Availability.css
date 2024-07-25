@@ -1,0 +1,13 @@
+#availability_heading{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+    font-size: 4rem;
+    color: red;
+}
+
+#availability{
+    background-image: url('../assets/canada-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

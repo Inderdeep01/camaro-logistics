@@ -1,9 +1,11 @@
 import './Separator.css'
 
 
-function Separator(){
+function Separator(props){
     return(
-        <div id='separator'>
+        <div id='separator' style={{
+            transform: `rotate(${props.angle}deg)`
+        }}>
             
         </div>
     )
