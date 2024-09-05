@@ -1,0 +1,26 @@
+#gallery_heading {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-top: 3%;
+}
+
+#gallery_container {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3%;
+    justify-content: center;
+    padding: 10%;
+}
+.gallery_box {
+    height: 50%;
+    flex-basis: auto;
+    flex-grow: 0;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.gallery_img {
+    height: 100%;
+}
