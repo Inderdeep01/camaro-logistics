@@ -7,7 +7,7 @@
     background-image: url('../assets/background.png');
     background-position: bottom center;
     background-repeat: no-repeat;
-    @media (max-width: 480px) {
+    @media (max-width: 1000px) {
         flex-flow: column;
         padding: 2%;
         justify-content: space-around;
@@ -28,7 +28,7 @@
 #heading_container {
     color: white;
     width: 50%;
-    @media (max-width: 480px) {
+    @media (max-width: 1000px) {
         font-size: 3rem;
         width: 100%;
     }
@@ -42,14 +42,14 @@
 }
 
 #truck_img_container {
-    @media (max-width: 480px) {
+    @media (max-width: 1000px) {
         width: 100%;
         justify-content: center;
     }
     width: 50%;
 }
 #truck_img {
-    @media (max-width: 480px) {
+    @media (max-width: 1000px) {
         width: 80%;
     }
     width: 100%;

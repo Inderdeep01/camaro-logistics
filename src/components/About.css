@@ -1,34 +1,41 @@
 #about_container {
     height: 95vh;
-    display: flex;
-    flex-flow: row;
-    padding: 10%;
-    /* background-color: whitesmoke; */
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 25%);;
-    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: 3%;
-    @media (max-width: 680px) {
+        display: flex;
+        flex-flow: row;
+        padding: 10%;
+        /* background-color: whitesmoke; */
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 25%);;
+    @media (min-width: 1000px){
+        clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+        margin-bottom: 3%;
+    }
+    
+    @media (max-width:1000px) {
         clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
         flex-flow: column-reverse;
         justify-content: center;
     }
 }
 #truck_img_container_2 {
-    @media (max-width: 700px) {
+    @media (max-width:1000px) {
         width: 100%;
     }
-    margin-top: 6%;
-    width: 50%;
+    @media (min-width: 1000px) {
+        margin-top: 6%;
+        width: 50%;
+    }
 }
 #truck_img_2{
     width: 100%;
 }
 
 #about_sub_container {
-    @media (max-width: 700px) {
+    @media (max-width:1000px) {
         width: 100%;
     }
-    width: 50%;
+    @media (min-width: 1000px){
+        width: 50%;
+    }
     margin-left: 5% ;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     
@@ -39,11 +46,13 @@
     
 }
 #heading_3{
-    @media (max-width: 680px) {
+    @media (max-width:1000px) {
         font-size: 2rem;
     }
-    font-size: 3rem;
-    margin-bottom: 2%;
+    @media (min-width: 1000px){
+        font-size: 3rem;
+        margin-bottom: 2%;
+    }
 }
 .sub_heading_3{
     color: red;
