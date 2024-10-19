@@ -7,9 +7,17 @@
     background-image: url('../assets/background.png');
     background-position: bottom center;
     background-repeat: no-repeat;
+    @media (max-width: 480px) {
+        flex-flow: column;
+        padding: 2%;
+        justify-content: space-around;
+    }
 }
 
 .heading {
+    @media (max-width: 480px) {
+
+    }
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-weight: 700;
 
@@ -20,6 +28,10 @@
 #heading_container {
     color: white;
     width: 50%;
+    @media (max-width: 480px) {
+        font-size: 3rem;
+        width: 100%;
+    }
     font-size: 4rem;
 }
 #heading_2 {
@@ -30,9 +42,16 @@
 }
 
 #truck_img_container {
+    @media (max-width: 480px) {
+        width: 100%;
+        justify-content: center;
+    }
     width: 50%;
 }
 #truck_img {
+    @media (max-width: 480px) {
+        width: 80%;
+    }
     width: 100%;
     opacity: 0; /* Initial state */
     animation: fadeIn 2s forwards; /* Apply the animation */

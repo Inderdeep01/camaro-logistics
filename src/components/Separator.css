@@ -1,5 +1,8 @@
 #separator {
     background-color: rgb(34, 0, 0);
+    @media (max-width: 800px) {
+        height: 2.5vh;
+    }
     height: 5vh;
     color: red;
     background-image: url('../assets/logo.png');

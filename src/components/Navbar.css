@@ -22,10 +22,6 @@
     
 }
 #btn-container {
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: space-between;
-    height: 50px;
     margin-top: 3%;
 
 }
