@@ -11,7 +11,7 @@
 }
 
 #availability{
-    background-image: url('../assets/canada-bg.png');
+    background-image: url('../assets/canada-bg-2.png');
     background-repeat: no-repeat;
     @media (max-width: 1000px) {
         background-size: contain;
