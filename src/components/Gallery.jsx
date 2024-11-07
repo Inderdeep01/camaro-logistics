@@ -1,9 +1,9 @@
 import './Gallery.css'
-import img_1 from "../assets/img_1.JPG"
-import img_2 from "../assets/img_2.JPG"
-import img_3 from "../assets/img_3.JPG"
-import img_4 from "../assets/img_4.JPG"
-import img_5 from "../assets/img_5.JPG"
+import img_1 from "../assets/img_1.png"
+import img_2 from "../assets/img_2.png"
+import img_3 from "../assets/img_3.png"
+import img_4 from "../assets/img_4.png"
+import img_5 from "../assets/img_5.png"
 function Gallery(props){
     return(
         <>
